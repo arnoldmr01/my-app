@@ -1,11 +1,15 @@
 import './App.css';
 
+function HelloWorld() {
+  return <h1>Hello World version 2!</h1>;
+}
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World version 2!</h1>
+    <main className="App">
+      <HelloWorld />
       <p>My first AWS Amplify deployment.</p>
-    </div>
+    </main>
   );
 }
 
